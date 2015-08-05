@@ -458,6 +458,7 @@ SPECIAL STUFF
 #footer {
 	background-color: black;
 	width:auto;
-	height: 5em;
+	height: auto;
+	position: center;
 }
 
