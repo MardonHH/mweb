@@ -142,7 +142,7 @@ HOME SECTION STYLES
 text-text-align: center;
 padding-top: 120px;
 padding-bottom: 60px;
-background-color: #eee;
+background-color: #fff;
 color: black;
 border-radius: 2px;
 border-bottom:2em solid black;
@@ -185,6 +185,15 @@ margin: 25px 20px;
 /*=======================
 SPECIAL STUFF
 =========================*/
+
+#explenation {
+	background-color: #eee;
+	width:auto;
+	height: auto;
+	position: center;
+	padding-top: auto;
+	color: #000;
+}
 
 #footer {
 	background-color: black;
