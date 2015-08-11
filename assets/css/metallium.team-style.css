@@ -1,0 +1,231 @@
+/*=============================================================
+ 
+========================================================  */
+
+
+/* =============================================================
+GOOGLE FONT
+============================================================ */
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu); /* FREE GOOGLE FONT */
+@import url(http://fonts.googleapis.com/css?family=Oswald); /* FREE GOOGLE FONT */
+
+
+
+/* =============================================================
+GENERAL STYLES
+============================================================ */
+body {
+font-family: 'Ubuntu', sans-serif;
+color: #000;
+}
+
+section {
+padding-top: 80px;
+padding-bottom: 40px;
+}
+
+.pad-bottom {
+padding-bottom: 60px;
+}
+
+.header {
+font-family: 'Oswald', sans-serif;
+padding-bottom: 40px;
+text-transform: uppercase;
+}
+
+.header hr {
+width: 50px;
+border-top: 2px solid #4285f4;
+}
+
+
+/* =============================================================
+CUSTOM BUTTON STYLES
+============================================================ */
+.button-custom {
+border-radius: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+margin: 25px 5px 5px 0px;
+margin: 5px;
+}
+
+.btn-custom-one {
+background-color: transparent;
+color: #fff;
+border: 2px solid #4285f4;
+}
+
+.btn-custom-one:hover {
+background-color: #42a3f4;
+text-decoration: none;
+color: #fff;
+}
+
+.btn-custom-two {
+color: #fff;
+background-color: #4285f4;
+border: 2px solid #4285f4;
+}
+
+.btn-custom-two:hover {
+border: 2px solid #4285f4;
+text-decoration: none;
+color: #fff;
+background-color: #42a3f4;
+}
+
+.btn-custom-three {
+color: #fff;
+background-color: #4285f4;
+border: 2px solid #4285f4;
+}
+
+.btn-custom-three:hover {
+border: 2px solid #4285f4;
+text-decoration: none;
+color: #fff;
+background-color: #42a3f4;
+}
+
+/* =============================================================
+MENU SECTION STYLES
+============================================================ */
+.navbar-inverse {
+background-color: #4285f4;
+border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+background-color: transparent;
+border-bottom: 1px solid #4285f4;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+font-size: 15px;
+font-weight: 900;
+padding: 5px 0px;
+letter-spacing: 2px;
+margin: 20px 20px 20px 20px;
+color: #FFF;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
+color: #fff;
+font-weight: 900;
+font-family: 'Oswald', sans-serif;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: transparent;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+background-color: #4285f4;
+}
+.navbar-inverse .navbar-toggle {
+border-color: #4285f4;
+}
+
+
+
+/* =============================================================
+HOME SECTION STYLES
+============================================================ */
+
+#home {
+text-text-align: center;
+padding-top: 120px;
+padding-bottom: 60px;
+background-color: #fff;
+color: black;
+border-radius: 2px;
+border-bottom:2em solid black;
+}
+
+#home .social {
+display: block;
+margin: 50px 300px;
+
+}
+
+#home h4 {
+padding-top: 10px;
+}
+/*Carousel Slider*/
+
+#carousel-slider {
+padding: 50px 20px 5px 50px;
+}
+
+#carousel-slider h3 {
+line-height: 50px;
+font-family: 'Oswald', sans-serif;
+}
+
+#carousel-slider p {
+color: black;
+font-size: 16px;
+line-height: 25px;
+margin: 25px 20px;
+}
+
+#devices{
+	background-color: #eee;
+	color: black;
+	height: auto;
+}
+
+
+/*=======================
+SPECIAL STUFF
+=========================*/
+
+#explenation {
+	background-color: #eee;
+	width:auto;
+	height: auto;
+	position: center;
+	padding-top: auto;
+	color: #000;
+}
+
+#footer {
+	background-color: black;
+	width:auto;
+	height: auto;
+	position: center;
+	padding-top: auto;
+}
+
+.banner ad {
+width:468px;
+margin:0 auto;
+}
+
+.left {
+    background-color: transparent;
+    float: left;
+    width: 50%;
+}
+
+.right {
+    background-color: transparent;
+    margin-left: 50%;
+}
+
+.circular {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	}
