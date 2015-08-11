@@ -133,6 +133,7 @@ border-color: #4285f4;
 }
 
 
+
 /* =============================================================
 HOME SECTION STYLES
 ============================================================ */
@@ -182,7 +183,7 @@ SERVICES SECTION STYLES
 
 #services .services-wrapper {
 background-color: transparent;
-padding: 15px;
+padding-bottom: 15px;
 border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
@@ -204,6 +205,10 @@ width: 26em;
 height: 13.5em;
 }
 
+#services .services-wraper-position{
+	padding-left: 30px;
+	padding-top:30;
+}
 
 #services .services-wrapper:hover {
 background-color: lightblue;
@@ -230,13 +235,14 @@ font-size: 60px;
 METAON SECTION STYLES
 ============================================================ */
 #metaon{
-	background-color: white;
-	color: black;
+	background-color:black;
+	color: white;
+	height: 35em;
 }
 
 #metaon .metaon-wrapper {
 background-color: transparent;
-padding: 15px;
+padding-bottom: 15px;
 border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
@@ -254,6 +260,8 @@ border-top: 2px solid black ;
 border-bottom: 2px solid black;
 border-left: 2px solid black;
 border-right: 2px solid black;
+width: 26em;
+height: 13.5em;
 }
 
 
@@ -269,7 +277,17 @@ transform: scale(1.1);
 
 #metaon h3 {
 font-family: 'Oswald', sans-serif;
-color:black;
+color:white;
+padding-top: 3em;
+padding-left: 13em;
+font-size:40px;
+
+p {
+font-family: 'Oswald', sans-serif;
+color:white;
+font-size:40px;
+}
+
 }
 
 #metaon .metaon-wrapper i {
@@ -277,6 +295,7 @@ margin: 5px;
 color: #4285f4;
 font-size: 60px;
 }
+
 
 
 /*============================
