@@ -135,8 +135,26 @@
 
 
 </div>
+<div id="explenation">
+<div class="left" align="center">
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#features">
+  Features:
+</button>
 
+<div id="features" class="collapse">
+Fill them in Mark!
+</div>
+    </div>
+    <div class="right" align="center">
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#changelog">
+  Changelog:
+</button>
 
+<div id="changelog" class="collapse">
+Will fill them in!
+</div>
+</div>
+</div>
 </section>
 
 
@@ -169,4 +187,14 @@
   ga('create', 'UA-64821470-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+    $(".collapsed").hide();
+
+    $(".collapsed, .expanded").click(function() {
+        $(this).parent().children(".collapsed, .expanded").toggle();
+    });
+});
 </script>
