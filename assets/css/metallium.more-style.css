@@ -241,20 +241,17 @@ margin:0 auto;
 	position: center;
 	border-radius: 1px;
     color: black;
-    height: 35em;
     padding-bottom: 60px;
-
 }
 
 #metalgen .left{   
-    background-color: #4285f4;
+
     float: left;
     width: 50%;
 
 }
 
 #metalgen .right {
-    background-color: white;
     margin-left: 50%;
 }
 
@@ -266,6 +263,6 @@ margin:0 auto;
 	position: center;
 	border-radius: 1px;
     color: black;
-    height: 35em;
+   
 
 }
