@@ -211,12 +211,12 @@ margin:0 auto;
 .left {
     background-color: transparent;
     float: left;
-    width: 50%;
+    width: 49%;
 }
 
 .right {
     background-color: transparent;
-    margin-left: 50%;
+    margin-left: 49%;
 }
 
 .circular {

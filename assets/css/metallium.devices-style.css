@@ -189,7 +189,7 @@ SPECIAL STUFF
 #explenation {
 	background-color: #eee;
 	width:auto;
-	height: auto;
+	height: 10em;
 	position: center;
 	padding-top: auto;
 	color: #000;
@@ -198,7 +198,7 @@ SPECIAL STUFF
 #footer {
 	background-color: black;
 	width:auto;
-	height: auto;
+	height: 10em;
 	position: center;
 	padding-top: auto;
 }

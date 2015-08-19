@@ -96,7 +96,7 @@
 <div align="center">
  <p style="font-family: 'Oswald', sans-serif;font-size:28px;align:center;padding-top:55px;">Kevin [LG-G2/D802]</p>
   <p><img style="border:5px solid black" src="assets/img/devices/D802-G2.jpg" border="1px" >
-    <div style="align:center;" class="social"><a class="btn button-custom btn-custom-two" href="#">Download here!</a></div>
+    <div style="align:center;" class="social"><a class="btn button-custom btn-custom-two" href="https://www.androidfilehost.com/?fid=24052804347796505">Download here!</a></div>
   </p>
  
 </div>
@@ -135,8 +135,26 @@
 
 
 </div>
+<div id="explenation">
+<div class="left" align="center">
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#features">
+  Features:
+</button>
 
+<div id="features" class="collapse">
+Fill them in Mark!
+</div>
+    </div>
+    <div class="right" align="center">
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#changelog">
+  Changelog:
+</button>
 
+<div id="changelog" class="collapse">
+Will fill them in!
+</div>
+</div>
+</div>
 </section>
 
 
@@ -169,4 +187,14 @@
   ga('create', 'UA-64821470-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+    $(".collapsed").hide();
+
+    $(".collapsed, .expanded").click(function() {
+        $(this).parent().children(".collapsed, .expanded").toggle();
+    });
+});
 </script>
