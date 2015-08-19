@@ -235,19 +235,24 @@ margin:0 auto;
 
 
 #metalgen {
+	background-image: url("versions.jpg"); 
 	border-radius: 2px;
+	border-top: 2em solid #000;
 	width:auto;
 	height: auto;
 	position: center;
 	border-radius: 1px;
     color: black;
-    padding-bottom: 60px;
+    padding-bottom: auto;
+    border-bottom: 2em solid #eee;
+    text-align: center;
 }
 
 #metalgen .left{   
-
+    padding-bottom: 10em;
     float: left;
     width: 50%;
+    height:25em;
 
 }
 
