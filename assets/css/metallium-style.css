@@ -145,13 +145,14 @@ padding-bottom: 60px;
 background-color: #eee;
 color: black;
 border-radius: 2px;
-border-bottom:2em solid black;
+
 }
 
 #home .box{
 	margin: 1em;
 	width: 70em;
 	height: 14em;
+	border-color: transparent;
 }
 
 #home .box .p{
