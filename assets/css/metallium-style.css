@@ -145,7 +145,18 @@ padding-bottom: 60px;
 background-color: #eee;
 color: black;
 border-radius: 2px;
-border-bottom:2em solid black;
+
+}
+
+#home .box{
+	margin: 1em;
+	width: 70em;
+	height: 14em;
+	border-color: transparent;
+}
+
+#home .box .p{
+	padding-bottom: 4em;
 }
 
 #home .social {
@@ -201,8 +212,9 @@ border-top: 2px solid black ;
 border-bottom: 2px solid black;
 border-left: 2px solid black;
 border-right: 2px solid black;
-width: 26em;
-height: 13.5em;
+width: 28em;
+height: 14.5em;
+font-size: 13px;
 }
 
 #services .services-wraper-position{
@@ -228,7 +240,7 @@ color:black;
 #services .services-wrapper i {
 margin: 5px;
 color: #4285f4;
-font-size: 60px;
+font-size: 80px;
 }
 
 /* =============================================================
@@ -475,13 +487,79 @@ SPECIAL STUFF
 =========================*/
 
 #footer {
-	background-color: black;
+	background-color: #eee;
 	width:auto;
 	height: auto;
 	position: center;
+	color: black;
 }
 
 .banner ad {
 width:468px;
 margin:0 auto;
+}
+
+#metaongen {
+	margin: 0em 0em 0em 0em;
+	background-color:#000;
+	border-radius: 2px;
+	width:auto;
+	height: auto;
+	position: center;
+	border-radius: 1px;
+    color: white;
+    height: 35em;
+    
+}
+#metalgen {
+	background-image: url("versions.jpg"); 
+	border-radius: 2px;
+	border-top: 2em solid #000;
+	width:auto;
+	height: auto;
+	position: center;
+	border-radius: 1px;
+    color: black;
+    padding-bottom: auto;
+    border-bottom: 2em solid #eee;
+    text-align: center;
+}
+
+#metalgen .left{   
+    padding-bottom: 10em;
+    float: left;
+    width: 50%;
+    height:25em;
+
+}
+
+#metalgen .right {
+    margin-left: 50%;
+}
+
+.box {
+    display: inline-block;
+	background-color: #eee;
+	height: auto;
+    width: 350px;
+    margin: 25px;
+    color: #eee;
+    border-right: 2px solid #4285f4;
+    border-left: 2px solid #4285f4;
+    border-bottom: 2px solid #4285f4;
+}
+
+.box .head{
+	text-align: center;
+	font-size: 1.8em;
+	height: auto;
+	width: 348px;
+	background-color: #4285f4; 
+
+}
+
+.box p {
+	font-size: 15px;
+	padding-top: 20px;
+	color: black;
 }
