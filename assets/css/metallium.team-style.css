@@ -231,8 +231,8 @@ margin:0 auto;
 	}
 
 	.animated { 
-    -webkit-animation-duration: 2s; 
-    animation-duration: 2s; 
+    -webkit-animation-duration: 4s; 
+    animation-duration: 4s; 
     -webkit-animation-fill-mode: both; 
     animation-fill-mode: both; 
     -webkit-animation-timing-function: ease-in-out; 
@@ -278,8 +278,8 @@ margin:0 auto;
     animation-name: bounceInDown; 
 }
 .animated { 
-    -webkit-animation-duration: 2s; 
-    animation-duration: 2s; 
+    -webkit-animation-duration: 8s; 
+    animation-duration: 8s; 
     -webkit-animation-fill-mode: both; 
     animation-fill-mode: both; 
     -webkit-animation-timing-function: ease-out; 
@@ -314,8 +314,8 @@ margin:0 auto;
 }
 
 .animated { 
-    -webkit-animation-duration: 2s; 
-    animation-duration: 2s; 
+    -webkit-animation-duration: 8s; 
+    animation-duration: 8s; 
     -webkit-animation-fill-mode: both; 
     animation-fill-mode: both; 
 } 
@@ -349,8 +349,8 @@ margin:0 auto;
     animation-name: rotateInDownLeft; 
 }
 .animated { 
-    -webkit-animation-duration: 2s; 
-    animation-duration: 2s; 
+    -webkit-animation-duration: 8s; 
+    animation-duration: 8s; 
     -webkit-animation-fill-mode: both; 
     animation-fill-mode: both; 
 } 
