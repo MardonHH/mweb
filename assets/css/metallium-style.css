@@ -494,9 +494,12 @@ SPECIAL STUFF
 	color: black;
 }
 
-.banner ad {
-width:468px;
+.bannerad {
+width:700px;
 margin:0 auto;
+    border-right: 2px solid #4285f4;
+    border-left: 2px solid #4285f4;
+    border-bottom: 2px solid #4285f4;
 }
 
 #metaongen {
