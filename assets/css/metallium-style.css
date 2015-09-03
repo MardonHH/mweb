@@ -188,7 +188,7 @@ SERVICES SECTION STYLES
 #services{
 	background-color: #eee;
 	color: black;
-	height: 50em;
+	height: auto;
 }
 
 
