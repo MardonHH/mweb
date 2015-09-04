@@ -189,7 +189,7 @@ SPECIAL STUFF
 #explenation {
 	background-color: #eee;
 	width:auto;
-	height: 10em;
+	height: auto;
 	position: center;
 	padding-top: auto;
 	color: #000;
@@ -203,10 +203,16 @@ SPECIAL STUFF
 	padding-top: auto;
 }
 
-.banner ad {
-width:468px;
+.bannerad {
+margin-top: 2em;
+width:82em;
+height: 5.8em;
 margin:0 auto;
+    border-right: 2px solid #4285f4;
+    border-left: 2px solid #4285f4;
+    border-bottom: 2px solid #4285f4;
 }
+
 
 .left {
     background-color: transparent;
